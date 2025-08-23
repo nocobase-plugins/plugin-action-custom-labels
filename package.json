@@ -1,0 +1,27 @@
+{
+  "name": "@nocobase/plugin-action-custom-labels",
+  "version": "1.7.1",
+  "main": "dist/server/index.js",
+  "displayName": "Action: Custom Labels",
+  "displayName.zh-CN": "操作：自定义标签",
+  "description": "Custom labels for actions.",
+  "description.zh-CN": "自定义操作的标签",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "@ant-design/icons": "5.x",
+    "@formily/react": "2.x",
+    "antd": "5.x",
+    "react": "^18.2.0",
+    "react-i18next": "^11.15.1"
+  },
+  "peerDependencies": {
+    "@nocobase/client": "1.x",
+    "@nocobase/server": "1.x",
+    "@nocobase/test": "1.x"
+  },
+  "keywords": [
+    "Action",
+    "Custom",
+    "Labels"
+  ]
+}
